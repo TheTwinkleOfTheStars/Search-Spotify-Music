@@ -89,14 +89,17 @@ Add `export PATH="/Users/[Username]/.local/bin:$PATH"` to your shell configurati
 ```
 
 ## 実行方法
-- ターミナルを起動し、プロジェクトのディレクトリに移動する。
+- ターミナルを起動し、`src`ディレクトリに移動する。
+```
+    cd src
+```
 - 仮想環境をアクティベートする。
 ```
     poetry shell
 ```
 - `main.py`を実行する。
 ```
-    python src/main.py
+    python main.py
 ```
 - `main.py`の実行が完了すると、`word`に代入される文字列と完全一致する曲のプレイリストが自動で作成される。
 - `main.py`の実行がうまくいかない場合は**トラブルシューティング**を参照。
