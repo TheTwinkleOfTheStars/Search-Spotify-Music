@@ -12,6 +12,7 @@
 Spotify APIを用いて、下記の自動化を行いました。
 - Spotifyの楽曲で、指定したキーワードと**完全一致**する楽曲情報を取得する
 - 取得した楽曲から成るプレイリストを作成する
+解説記事: [Zenn](https://zenn.dev/coveringnumber/articles/b7fd17323699c0)
 
 Using the Spotify API, I automated the following tasks:
 - Retrieve track information from Spotify that **exactly matches** the specified keyword
